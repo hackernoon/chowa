@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chowa/static/css/main.c8786f82.css",
+    "main.js": "/chowa/static/js/main.4c44b5a6.js",
+    "static/media/iconfont.eot?": "/chowa/static/media/iconfont.30cd23d7e8c843cdad15.eot",
+    "static/media/iconfont.woff?": "/chowa/static/media/iconfont.a2ca655a129db2a0f6ba.woff",
+    "static/media/iconfont.woff2?": "/chowa/static/media/iconfont.ce62c3edbaebf767373b.woff2",
+    "index.html": "/chowa/index.html",
+    "main.c8786f82.css.map": "/chowa/static/css/main.c8786f82.css.map",
+    "main.4c44b5a6.js.map": "/chowa/static/js/main.4c44b5a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8786f82.css",
+    "static/js/main.4c44b5a6.js"
+  ]
+}
