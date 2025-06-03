@@ -54,7 +54,7 @@ const Container = styled.div(`
   }
 
   .active-format{
-    background: #9afd7d !important; 
+    background:rgb(68, 68, 68) !important; 
     border-radius: 3px;
   }
 
@@ -80,7 +80,7 @@ const Container = styled.div(`
       padding: 0px 5px;
     }
     .dropdown-list{
-      width: 155px;
+      width: 180px;
       li{
         display: flex;
         gap: 5px;
@@ -103,9 +103,9 @@ const Container = styled.div(`
     padding: 0;
     border: 1px solid #ccc;
     border-top: none;
-    background-color: #fff;
+    background-color: #000000;
     position: absolute;
-    width: 100%;
+    width: 180px;
     z-index: 1;
   }
 
@@ -115,7 +115,7 @@ const Container = styled.div(`
   }
 
   .dropdown-list li:hover {
-    background-color: #e0e0e0;
+    background-color:rgb(77, 77, 77);
   }
   
 `);
@@ -129,7 +129,6 @@ const Toolbar = ({
   currentFormats = "",
   showLinkOnShortCut = false,
   setShowLinkOnShortCut,
-  hackernoonTouch = true
 }) => {
   const [showFont, setShowFont] = useState(false);
   const [showInfo, setShowInfo] = useState(false);
@@ -164,7 +163,7 @@ const Toolbar = ({
 
   const handleInfo = name => {
     applyFocus();
-    handleInfo(name);
+    applyFormat(name);
     setShowInfo(false);
   };
 
@@ -180,8 +179,8 @@ const Toolbar = ({
   // console.log("re-rendering", showLinkComponent)
   return (
     <Container id="hn-toolbar" className={``}>
-        <button>
-        <img className="toolbar-icon" src="./hn-icon.png" />
+      <button>
+        <img className="toolbar-icon" src="https://hackernoon.github.io/chowa/hn-icon.png" alt="hn-logo" />
       </button>
       <button className={currentFormats["bold"] ? "active-format" : ""} onClick={() => applyFormat("bold")}>
         <img className="toolbar-icon" src="https://hackernoon.imgix.net/mobile/editorMenu/bold-text-icon.svg" />
@@ -324,10 +323,6 @@ const Toolbar = ({
           </ul>
         )}
       </div>
-
-      <button onClick={() => applyFormat("clear")}>
-        <CleanFormat />
-      </button>
     </Container>
   );
 };
