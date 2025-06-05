@@ -4,7 +4,7 @@
   "engines": {
     "node": "20.x"
   },
-  "homepage": "https://hackernoon.github.io/chowa",
+  "homepage":".",
   "dependencies": {
     "@babel/core": "^7.1.0",
     "@babel/runtime": "^7.19.0",
