@@ -1,10 +1,7 @@
 import React, { useEffect, useState, useRef, useMemo } from 'react'
 
-import ReactQuill, { Quill } from "react-quill-new";
 import "react-quill-new/dist/quill.snow.css";
-import Toolbar from "./components/Toolbar.jsx";
 import Chowa from './components/Chowa.js';
-import styled from '@emotion/styled';
 import "./app.scss";
 
 const App = () => {
