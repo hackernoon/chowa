@@ -5,4 +5,4 @@ Chōwa (調和, choh-wah, /ˈt͡ʃoːwa/) — rhymes with flow-a.
 
 Between structure and freedom, we write together. 
 
-Learn more @ [CHOWA.tech](https://chowa.tech).
+[Write a blog post with CHOWA on HackerNoon](https://app.hackernoon.com/articles/new). Learn more @ [CHOWA.tech](https://chowa.tech). 
